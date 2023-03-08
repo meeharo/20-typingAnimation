@@ -29,17 +29,17 @@ body {
     text-shadow: 0 0 100px var(--primary-color);
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(30) infinite, blink 1s infinite;
+    animation: typing 5s steps(30) infinite;
 }
 
-@keyframes typing {
+/* @keyframes typing {
     0%, 100% {
         width: 0%;
     }
     70%, 90% {
         width: 100%;
     }
-}
+} */
 
 @keyframes blink {
     0%, 100% {
